@@ -1,0 +1,261 @@
+@charset "utf8";
+
+body {
+    background-color: #F7F5F0;
+}
+
+.fonte-nunito {
+    font-family: 'Nunito';
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.banner img{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    width: 233px;
+    height: 373.47px;
+    text-align: center;
+    border: 2px solid #F5EBDC;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.produto img {
+    padding: 10px;
+}
+
+.produto:hover {
+    border: 2px solid #FF8627;
+}
+
+.nome-produto {
+    display: inline-block;
+    width: 152px;
+    height: 60px;
+    color: #502314;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.preco-produto {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.btn-adicionar {
+    width: 177px;
+    height: 41px;
+    background-color: #F5F3F0;
+    color: #2D2D2D;
+    border-radius: 8px;
+    border-width: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;  
+}
+
+.btn-adicionar:hover {
+    background-color: #FF8627;
+    color: white;
+}
+
+.secao-sacola {
+    background-color: white;
+    border-radius: 32px 32px 0 0;
+    margin-top: 6px;
+    padding-bottom: 30px;
+}
+
+.cabecalho-sacola {
+    background-color: #502314;
+    border-radius: 32px 32px 0 0;
+    color: white;
+    height: 142px;
+}
+
+.informacoes-sacola {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cliente {
+    font-size: 32px;
+    margin: 30px 0 10px 20px;
+}
+
+.retirada-produto {
+    font-size: 22px;
+    font-weight: 200;
+    font-style: italic;
+    margin: 0 0 0 20px;
+}
+
+.total-sacola {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px 20px 0 0;
+}
+
+.sacola {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.adicionado-sacola {
+    margin: 20px;
+    background-color: #F5F3F0;
+    border-radius: 15px;
+}
+
+.sacola-vazia {
+    width: 1063px;
+}
+
+.adicionado-sacola img {
+    margin: 0 20px 0 20px;
+}
+
+.produto-sacola {
+    display: flex;
+    align-items: center;
+    justify-items: stretch;
+}
+
+.nome-produto-sacola {
+    color: #502314;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.preco-produto-sacola {
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.btn-remover {
+    border-color: 0;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-finalizar {
+    background-color: #DB3B1D;
+    color: white;
+    width: 195px;
+    height: 51px;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 22px;
+    margin: 20px 0 15px 5px;
+}
+
+.btn-cancelar {
+    background-color: white;
+    color: #DB3B1D;
+    width: 195px;
+    height: 51px;
+    border-radius: 10px;
+    border: 4px solid #DB3B1D;
+    font-size: 22px;
+    margin: 0 0 0 5px;
+}
+
+ /* modal cancelar */
+
+ .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0,0);
+    background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ .modal-content {
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+ }
+
+ .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ .btn-sim, .btn-nao {
+    width: 177px;
+    height: 41px;
+    background-color: #F5F3F0;
+    color: #2D2D2D;
+    border-radius: 8px;
+    border-width: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+ }
+
+ .mensagem-modal {
+    padding: 10px;
+    font-size: 20px;
+ }
+
+ .btn-sim:hover {
+    background-color: #FF8627;
+    color: white;
+}
+
+ .btn-nao:hover {
+    background-color: #FF8627;
+    color: white;
+}
+ 

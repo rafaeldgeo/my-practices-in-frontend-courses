@@ -1,0 +1,117 @@
+@charset "utf8";
+
+body {
+    background-color: #F7F5F0;
+}
+
+.fonte-nunito {
+    font-family: 'Nunito';
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.banner img{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: #DB3B1D;
+    font-size: 32px;
+}
+
+.pedido {
+    display: flex;
+}
+
+.produto-imagem {
+    margin: 20px 0 0 0;
+}
+
+.pedido-produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 1120px;
+    height: 94px;
+    margin: 35px 15px 15px 30px;
+    border-radius: 15px;
+}
+
+.pedido-produto h2 {
+    font-size: 24px;
+    color: #502314;
+    font-style: italic;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.qtd {
+    padding-right: 10px;
+}
+
+.qtd-item {
+    display: inline;
+}
+
+.total-compra {
+    display: flex;
+    justify-content: space-around;
+    font-size: 34px;
+    color: #502314;
+    font-weight: 400px;
+}
+
+.pedido-pronto {
+    background-color:#FF8627;
+    width: 80%;
+    border-radius: 18px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.pedido-pronto img {
+    padding: 20px 0 20px 0;
+}
+
+.aviso-pronto {
+    font-size: 50px;
+    color: #502314;
+    padding: 20px 0 10px 0;
+}
+
+.aviso-pedido {
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.numero-pedido {
+    display: inline;
+    position: relative;
+    bottom: 30px;
+    font-size: 50px;
+    color: #502314;
+    padding: 0 0 20px 10px;
+}
+
+.mensagem-final {
+    text-align: center;
+    margin: 21px 0 60px 0;
+    font-style: italic;
+    font-size: 34px;
+    font-weight: 200;
+    color: #502314;
+
+}

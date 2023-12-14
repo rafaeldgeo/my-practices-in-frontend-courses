@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Projeto BKB CODE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body class="bg-warning text-dark bg-opacity-10 p-0 m-0">
+  <header class="container py-4">
+    <div class="d-flex justify-content-center justify-content-sm-around justify-content-md-between flex-wrap">
+        <h1><img class="img-fluid m-2" src="imagens/Projeto BKB Code 1.png" alt="Logomarca Projeto BKB CODE"></h1>
+        <img class="img-fluid m-2" src="imagens/Logos 1.png" alt="">
+    </div>    
+  </header>
+  <picture>
+      <source media="(max-width:669px)" srcset="/imagens/banner669.png" type="image/png">
+      <source media="(max-width:916px)" srcset="/imagens/banner916.png" type="image/png">
+      <source media="(max-width:1330px)" srcset="/imagens/banner1330.png" type="image/png">
+      <img src="/imagens/banner.png" class="img-fluid" alt="">
+  </picture>
+  <main class="flex-fill">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 mt-5" id="vitrine">
+        <!-- inserido pelo JS -->
+    </div>
+  </main>
+  <footer class="mt-4">
+    <div class="bg-warning rounded-top-4">
+      <div class="container ">
+        <div class="row py-4 text-black">
+          <div class="col-12 col-md-6">
+            <h4>Olá Kenzie | Minha Sacola</h4>
+            <span class="fs-4 fst-italic d-block">Retirar no Balcão</span>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-start justify-content-sm-start justify-content-md-end justify-content-lg-end justify-content-xl-end d-flex align-items-center">
+            <span class="d-block fs-3" id="totalsacola">Total R$ 0.00</span>
+          </div> 
+        </div>
+      </div>
+    </div>
+      <div class="bg-white">
+        <div class="container py-4">
+          <div class="row d-flex justify-content-center align-items-center">
+              <div id="sacolavazia">
+                <div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center bg-warning-subtle rounded-4 mb-2">
+                  <div class="col-12 col-md-6 d-flex justify-content-center py-md-5">
+                    <span class="text-start fw-semibold d-block fs-4">Sacola Vazia</sapn>
+                  </div>
+                  <div class="col-12 col-md-6 d-flex justify-content-center py-md-5">
+                    <span class="fw-semibold d-block fs-4">Adicione um produto</span>
+                  </div>
+                </div> 
+              </div>
+            <ul class="list-group list-group-flush col-12 col-md-8 col-lg-8 col-xl-9 col-xxl-10" id="sacola">
+            </ul>  
+            <div class="d-flex flex-column col-12 col-md-4 col-lg-3 col-xxl-2">
+              <button type="button" class="btn btn-lg btn-danger mb-2 d-none" id="btnfinalizar" >Finalizar Pedido</button>  
+              <button type="button" class="btn btn-lg btn-outline-danger mb-2 d-none" id="btncancelar">Cancelar Pedido</button> 
+            </div>
+          </div> 
+        </div>  
+      </div>   
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
